@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav-header">
+          <a href="./index.html" class="logo link">Web<span class="logo-black">Studio</span></a>
+          <ul class="nav-list list">
+            <li class="nav-item"><a href="./index.html" class="nav-link link">Студия</a></li>
+            <li class="nav-item">
+              <a href="./portfolio.html" class="nav-link link active">Портфолио</a>
+            </li>
+            <li class="nav-item"><a href="#" class="nav-link link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contacts-list list">
+          <li class="contacts-item">
+            <a href="mailto:info@devstudio.com" class="contacts-link link">
+              <svg width="16" height="12" class="contacts-icon">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="contacts-item">
+            <a href="tel:+380961111111" class="contacts-link link">
+              <svg width="10" height="16" class="contacts-icon">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="job section">
+        <div class="container">
+          <h1 class="hidden-section-title">Нашы работы</h1>
+
+          <ul class="button-list list">
+            <li class="button-item">
+              <button type="button" class="filter-button">Все</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="filter-button">Веб-сайты</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="filter-button">Приложения</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="filter-button">Дизайн</button>
+            </li>
+            <li class="button-item">
+              <button type="button" class="filter-button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="list job-list card-set">
+            <li class="job-item card-item">
+              <a href="" class="link job-link" target="_blank" rel="noreferrer noopener">
+                <div class="overlay-box">
+                  <img
+                    src="./images/imgnote.jpg"
+                    alt="Карточки команды на мониторе"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                      Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                      приватну особу.
+                    </p>
+                  </div>
+                </div>
+                <div class="job-container">
+                  <h2 class="job-title">Технокряк</h2>
+                  <p class="job-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="job-item card-item">
+              <a href="" class="link job-link" target="_blank" rel="noreferrer noopener">
+                <div class="overlay-box">
+                  <img
+                    src="./images/imgBB.jpg"
+                    alt="Баскетдолисты в игре"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae libero tenetur
+                      beatae, porro quisquam, sed amet soluta minima, voluptatem autem tempora!
+                    </p>
+                  </div>
+                </div>
+                <div class="job-container">
+                  <h2 class="job-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="job-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="job-item card-item">
+              <a href="" class="link job-link" target="_blank" rel="noreferrer noopener">
+                <div class="overlay-box">
+                  <img
+                    src="./images/imgsea.jpg"
+                    alt="Логотип ресторана морепродуктов"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae libero tenetur
+                      beatae, porro quisquam, sed amet soluta minima, voluptatem autem tempora!
+                    </p>
+                  </div>
+                </div>
+                <div class="job-container">
+                  <h2 class="job-title">Ресторан Seafood</h2>
+                  <p class="job-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="job-item card-item">
+              <a href="" class="link job-link" target="_blank" rel="noreferrer noopener">
+                <div class="overlay-box">
+                  <img src="./images/imgHearphone.jpg" alt="Наушники" width="370" height="294" />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae libero tenetur
+                      beatae, porro quisquam, sed amet soluta minima, voluptatem autem tempora!
+                    </p>
+                  </div>
+                </div>
+                <div class="job-container">
+                  <h2 class="job-title">Проект Prime</h2>
+                  <p class="job-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="job-item card-item">
+              <a href="" class="link job-link" target="_blank" rel="noreferrer noopener">
+                <div class="overlay-box">
+                  <img
+                    src="./images/imgboxes.jpg"
+                    alt="2 картонные коробки"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae libero tenetur
+                      beatae, porro quisquam, sed amet soluta minima, voluptatem autem tempora!
+                    </p>
+                  </div>
+                </div>
+                <div class="job-container">
+                  <h2 class="job-title">Проект Boxes</h2>
+                  <p class="job-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="job-item card-item">
+              <a href="" class="link job-link" target="_blank" rel="noreferrer noopener">
+                <div class="overlay-box">
+                  <img
+                    src="./images/imgmonitor.jpg"
+                    alt="Монитор с картой мира"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae libero tenetur
+                      beatae, porro quisquam, sed amet soluta minima, voluptatem autem tempora!
+                    </p>
+                  </div>
+                </div>
+                <div class="job-container">
+                  <h2 class="job-title">Inspiration has no Borders</h2>
+                  <p class="job-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="job-item card-item">
+              <a href="" class="link job-link" target="_blank" rel="noreferrer noopener">
+                <div class="overlay-box">
+                  <img src="./images/imgbook.jpg" alt="Журнал" width="370" height="294" />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae libero tenetur
+                      beatae, porro quisquam, sed amet soluta minima, voluptatem autem tempora!
+                    </p>
+                  </div>
+                </div>
+                <div class="job-container">
+                  <h2 class="job-title">Издание Limited Edition</h2>
+                  <p class="job-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="job-item card-item">
+              <a href="" class="link job-link" target="_blank" rel="noreferrer noopener">
+                <div class="overlay-box">
+                  <img src="./images/imglable.jpg" alt="Этиектка" width="370" height="294" />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae libero tenetur
+                      beatae, porro quisquam, sed amet soluta minima, voluptatem autem tempora!
+                    </p>
+                  </div>
+                </div>
+                <div class="job-container">
+                  <h2 class="job-title">Проект LAB</h2>
+                  <p class="job-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="job-item card-item">
+              <a href="" class="link job-link" target="_blank" rel="noreferrer noopener">
+                <div class="overlay-box">
+                  <img
+                    src="./images/imgtype.jpg"
+                    alt="Человек печатает на ноутбуке"
+                    width="370"
+                    height="294"
+                  />
+                  <div class="overlay">
+                    <p class="overlay-text">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae libero tenetur
+                      beatae, porro quisquam, sed amet soluta minima, voluptatem autem tempora!
+                    </p>
+                  </div>
+                </div>
+                <div class="job-container">
+                  <h2 class="job-title">Growing Business</h2>
+                  <p class="job-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-container">
+          <a href="#" class="logo link">Web<span class="logo-white">Studio</span></a>
+          <address class="address">
+            <ul class="list address-list">
+              <li class="address-item">
+                <a
+                  href="https://goo.gl/maps/cmPsCxapfPT3pbkK8"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="address-link link"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="address-item">
+                <a
+                  href="mailto:info@example.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="contacts-link link"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address-item">
+                <a
+                  href="tel:+380991111111"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="contacts-link link"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="social-container">
+          <p class="footer-social-title">присоединяйтесь</p>
+          <ul class="socials card-set list">
+            <li class="social-item">
+              <a
+                href=""
+                class="social-link footer-social link"
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label="instagram"
+              >
+                <svg width="20px" height="20px" class="social-icon footer-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href=""
+                class="social-link footer-social link"
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label="twitter"
+              >
+                <svg width="20px" height="20px" class="social-icon footer-icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href=""
+                class="social-link footer-social link"
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label="facebook"
+              >
+                <svg width="20px" height="20px" class="social-icon footer-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a
+                href=""
+                class="social-link footer-social link"
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label="linkedin"
+              >
+                <svg width="20px" height="20px" class="social-icon footer-icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="subscribe-box">
+          <h3 class="subscribe-title title footer-social-title item-title">
+            Подпишитесь на рассылку
+          </h3>
+          <form class="subscribe-form">
+            <label>
+              <input
+                type="email"
+                class="subscribe-input"
+                placeholder="E-mail"
+                name="subscribe-email"
+              />
+            </label>
+            <button type="submit" class="subscribe-btn main-button">
+              <span class="subscribe-btn-text">Подписаться</span>
+              <svg width="24" height="24" class="subscribe-icon">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
